@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# WUT?
+
+This is a starter to build quick prototypes with React and Bootstrap 4 (via SCSS).
 
 ## Available Scripts
 
