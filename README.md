@@ -2,6 +2,27 @@
 
 This is a starter to build quick prototypes with React and Bootstrap 4 (via SCSS).
 
+# How?
+
+Create a folder on your hard drive. Open the folder in your IDE.
+In your terminal, create a Github repo with the same name as your folder (change your username from 149203):
+```
+curl -u '149203' https://api.github.com/user/repos -d '{"name":"YOUR_FOLDER_NAME"}'
+```
+Enter your Github password.
+Clone the repo into your current directory with (note the `.`):
+```
+git clone https://github.com/149203/YOUR_FOLDER_NAME.git .
+```
+Change the origin to your new repo:
+```
+git remote set-url origin https://github.com/149203/YOUR_FOLDER_NAME.git
+```
+Push to the new repo:
+```
+git push origin master
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
